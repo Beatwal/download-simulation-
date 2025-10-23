@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.download-container {
+    background: #000000;
+    color: #eee;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #c5c5c5;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 100%;
+    width: 0; /* JS will change this */
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    border-radius: 20px;
+    transition: width 0.3s ease;
+}
+
+.download-btn {
+    background: #4caf50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #45a049;
+}
+
+.status-text {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
