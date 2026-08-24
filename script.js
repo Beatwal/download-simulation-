@@ -1,6 +1,7 @@
 let width=document.querySelector(".progress")
 let start=document.querySelector(".status-text")
 count=0
+console.log("js is connected")
 let button=document.querySelector("button")
 button.addEventListener("click",()=>{
     let tmm=setInterval(() => {
